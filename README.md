@@ -1,7 +1,6 @@
 # Flutter Ui (Web Login)
 
-![Screenshot 2021-11-16 215731](https://user-images.githubusercontent.com/87581799/142059849-ff90f681-91e4-496d-b897-4117102051c2.jpg)
-
+![Screenshot 2021-11-16 235019](https://user-images.githubusercontent.com/87581799/142059936-f09b4a97-a555-46b7-a7f4-57770a61fc21.jpg)
 
 A new Flutter project.
 
