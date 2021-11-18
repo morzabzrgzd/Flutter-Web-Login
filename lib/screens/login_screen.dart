@@ -48,7 +48,7 @@ class _LoginScreenState extends State<LoginScreen> {
             children: [
               loginImage(),
               Container(
-                margin: EdgeInsets.symmetric(horizontal: size.width * 0.2),
+                margin: EdgeInsets.symmetric(horizontal: size.width * 0.1),
                 alignment: Alignment.center,
                 child: buildLoginFormAndBtn(),
               )
