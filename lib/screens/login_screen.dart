@@ -19,6 +19,7 @@ class _LoginScreenState extends State<LoginScreen> {
     var size = MediaQuery.of(context).size;
     return SafeArea(
       child: Scaffold(
+        resizeToAvoidBottomInset: false,
         body: ResponsiveWidget(
           desktop: Row(
             children: [
@@ -38,7 +39,7 @@ class _LoginScreenState extends State<LoginScreen> {
             children: [
               loginImage(),
               Container(
-                margin: EdgeInsets.symmetric(horizontal: size.width * 0.25),
+                margin: EdgeInsets.symmetric(horizontal: size.width * 0.15),
                 alignment: Alignment.center,
                 child: buildLoginFormAndBtn(),
               )
@@ -59,7 +60,7 @@ class _LoginScreenState extends State<LoginScreen> {
     );
   }
 
-  Column buildLoginFormAndBtn() {
+  Widget buildLoginFormAndBtn() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       mainAxisAlignment: MainAxisAlignment.center,
